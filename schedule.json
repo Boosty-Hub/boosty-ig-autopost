@@ -1,13 +1,13 @@
 {
-  "_comment": "Fecha (hora Venezuela, VET) -> post. La Action corre 07:00 VET (11:00 UTC).",
+  "_comment": "Fecha (hora Venezuela, VET) -> post. La Action corre 07:00 VET (11:00 UTC) a diario y publica solo si hoy hay entrada. Reprogramado 18-jul: C11/C8/C3 no salieron con las tareas locales (abortaron); se relanzan aquí.",
   "posts": {
-    "2026-07-13": { "slug": "c11-procesos",  "videoFirst": false, "caption": "captions/caption_c11.txt" },
-    "2026-07-15": { "slug": "c8-dashboards",  "videoFirst": true,  "caption": "captions/caption_c8.txt" },
-    "2026-07-17": { "slug": "c3-rag",         "videoFirst": false, "caption": "captions/caption_c3.txt" },
-    "2026-07-19": { "slug": "c10-orquesta",   "videoFirst": true,  "caption": "captions/caption_c10.txt" },
-    "2026-07-21": { "slug": "c2-connectors",  "videoFirst": false, "caption": "captions/caption_c2.txt" },
-    "2026-07-23": { "slug": "c6-human-loop",  "videoFirst": false, "caption": "captions/caption_c6.txt" },
-    "2026-07-25": { "slug": "c9-inventarios", "videoFirst": false, "caption": "captions/caption_c9.txt" },
-    "2026-07-27": { "slug": "c12-sistemas",   "videoFirst": false, "caption": "captions/caption_c12.txt" }
+    "2026-07-19": { "slug": "c11-procesos",  "videoFirst": false, "caption": "captions/caption_c11.txt" },
+    "2026-07-21": { "slug": "c8-dashboards",  "videoFirst": true,  "caption": "captions/caption_c8.txt" },
+    "2026-07-23": { "slug": "c3-rag",         "videoFirst": false, "caption": "captions/caption_c3.txt" },
+    "2026-07-25": { "slug": "c10-orquesta",   "videoFirst": true,  "caption": "captions/caption_c10.txt" },
+    "2026-07-27": { "slug": "c2-connectors",  "videoFirst": false, "caption": "captions/caption_c2.txt" },
+    "2026-07-29": { "slug": "c6-human-loop",  "videoFirst": false, "caption": "captions/caption_c6.txt" },
+    "2026-07-31": { "slug": "c9-inventarios", "videoFirst": false, "caption": "captions/caption_c9.txt" },
+    "2026-08-02": { "slug": "c12-sistemas",   "videoFirst": false, "caption": "captions/caption_c12.txt" }
   }
 }
