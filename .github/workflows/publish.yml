@@ -1,0 +1,38 @@
+name: Publicar carrusel en Instagram
+
+on:
+  schedule:
+    # 07:00 hora Venezuela (VET, UTC-4) = 11:00 UTC. Corre a diario y publica solo si hoy hay post en schedule.json.
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Prueba sin publicar (valida URLs y dedup)"
+        type: boolean
+        default: true
+      force_slug:
+        description: "Publicar un slug específico (opcional, ignora la fecha)"
+        type: string
+        default: ""
+
+concurrency:
+  group: ig-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+      IG_USER_ID: "17841421294200897"
+      GRAPH_VERSION: "v22.0"
+      PAGES_BASE: "https://boosty-hub.github.io/boosty-ig-autopost"
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
+      FORCE_SLUG: ${{ github.event_name == 'workflow_dispatch' && inputs.force_slug || '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Publicar
+        run: node publish.mjs

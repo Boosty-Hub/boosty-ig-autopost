@@ -1,0 +1,15 @@
+Así se ve una IA que responde con SUS datos —y cita la fuente
+
+En el carrusel verá la pantalla real: alguien pregunta "¿cuál es la garantía del modelo GS4?" y la IA responde "5 años o 100.000 km", mostrando debajo las fuentes citadas —Manual_Garantia_GS4.pdf, pág. 12— con el fragmento exacto resaltado. Nada inventado; todo verificable.
+
+La mayoría de los directivos ha visto a un modelo "alucinar": responder con seguridad algo que no es cierto. La técnica que lo resuelve se llama RAG: en lugar de contestar de memoria, la IA primero busca en los documentos reales de su empresa —manuales, contratos, políticas, base de datos—, recupera lo relevante y recién entonces redacta la respuesta, citando de dónde salió.
+
+El impacto es directo en confianza y velocidad. Un equipo de soporte que consulta manuales a mano tarda minutos por caso; con RAG responde en segundos y sin errores de interpretación. En operaciones con cientos de consultas al día, son decenas de horas semanales recuperadas y una experiencia consistente. Y como se apoya en sus documentos, se mantiene al día apenas usted cambia una política o una lista de precios.
+
+En Boosty implementamos esta capa con Claude como motor de razonamiento, conectada a sus fuentes reales, con trazabilidad de cada respuesta.
+
+¿Sus datos están listos para que la IA responda con ellos? Comente DIAGNÓSTICO y le enviamos por mensaje directo el Diagnóstico de Madurez Digital: un mapa de sus fuentes y dónde la IA aporta valor primero.
+
+Gabriel Montiel Toro · CEO de Boosty
+
+#InteligenciaArtificial #RAG #IAparaEmpresas #AutomatizaciónEmpresarial #TransformaciónDigital #Claude #GestiónDelConocimiento #Boosty #LATAM

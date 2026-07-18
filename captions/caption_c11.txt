@@ -1,0 +1,17 @@
+Así se ve el panel cuando pasas los procesos a modo automático
+
+En el carrusel verás el tablero de tu equipo: cada proceso con un interruptor Manual → Auto y las horas que devuelve al mes. Con cinco de ellos en automático, el contador marca 112 horas recuperadas cada mes.
+
+No hace falta transformar toda la empresa de golpe. Basta con mirar las tareas repetitivas que consumen horas todas las semanas y hoy dependen de una persona: cotizar propuestas, dar seguimiento comercial, consolidar reportes, calificar leads, validar documentos.
+
+Sumadas, superan con facilidad las 100 horas mensuales en un equipo mediano. Esas 100+ horas equivalen a un salario de tiempo completo —con frecuencia entre US$1.500 y US$3.000— gastado en trabajo mecánico en lugar de en cerrar, atender y decidir.
+
+La buena noticia: no se encienden todos los interruptores a la vez. Se empieza por el proceso que más horas devuelve en su operación y se avanza desde ahí, sobre las herramientas que ya usa.
+
+En Boosty identificamos ese primer proceso y lo automatizamos con Claude como capa de razonamiento, con aprobación humana donde el riesgo lo amerita.
+
+¿Cuál de estos procesos le pesa más hoy? Comente DIAGNÓSTICO y le enviamos por mensaje directo el Diagnóstico de Madurez Digital: cuál automatizar primero y cuántas horas recuperaría al mes.
+
+Gabriel Montiel Toro · CEO de Boosty
+
+#Productividad #InteligenciaArtificial #AutomatizaciónDeProcesos #AgentesDeIA #IAparaEmpresas #TransformaciónDigital #Ventas #Claude #Boosty #LATAM

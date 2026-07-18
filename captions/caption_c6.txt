@@ -1,0 +1,17 @@
+Así se ve cuándo la IA actúa sola —y cuándo se detiene a preguntar
+
+En el carrusel verá la cola de decisiones del agente: dos acciones de bajo riesgo se auto-aprueban solas (responder un horario, agendar una reunión interna) y una tercera —enviar una cotización de US$12.400 a Acme Corp— se detiene y pide su aprobación, con su contexto: "monto sobre su umbral · confianza 74%".
+
+La pregunta que frena a muchos comités no es si la IA funciona, sino quién responde cuando toma una decisión equivocada. La respuesta se llama human-in-the-loop: el agente ejecuta de forma autónoma lo rutinario y de bajo riesgo, pero se detiene justo antes de una acción sensible. Autonomía con freno de mano.
+
+¿Dónde debe detenerse siempre? En tres frentes: cuando hay dinero en juego (un descuento o cotización sobre el umbral que usted define), cuando envía un mensaje sensible a un cliente clave, y ante cualquier acción irreversible —firmar, cancelar o borrar datos—. Todo lo demás, el agente lo resuelve en segundos.
+
+El beneficio para la dirección es doble: gana velocidad sin ceder control. Usted define dónde están los frenos y cada acción queda registrada y es auditable.
+
+En Boosty diseñamos estos guardrails sobre su operación, con Claude como capa de razonamiento y trazabilidad de cada decisión.
+
+¿Qué decisiones dejaría que la IA tome sola hoy? Comente DIAGNÓSTICO y le enviamos por mensaje directo el Diagnóstico de Madurez Digital: qué puede automatizar sin riesgo y dónde conviene mantener el visto bueno humano.
+
+Gabriel Montiel Toro · CEO de Boosty
+
+#InteligenciaArtificial #AgentesDeIA #HumanInTheLoop #IAparaEmpresas #AutomatizaciónEmpresarial #GobernanzaDeIA #TransformaciónDigital #Claude #Boosty #LATAM

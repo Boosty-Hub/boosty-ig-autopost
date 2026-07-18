@@ -1,0 +1,19 @@
+Así se ve el quiebre de stock —antes de que ocurra
+
+En el carrusel verás el panel de inventario en vivo: cada SKU con sus días de cobertura y, en rojo, la alerta "quiebre en 4 días" con la reposición ya sugerida. El sistema no reporta el problema: lo anticipa.
+
+Quedarse sin producto casi nunca es un imprevisto: es una señal que nadie leyó a tiempo. En operaciones con cientos de SKUs, el inventario se decide por intuición o revisando planillas cuando ya es tarde, y cada quiebre es una venta perdida y un cliente que resuelve con la competencia.
+
+Los inventarios inteligentes invierten el orden. La IA lee su historial real de ventas, detecta estacionalidad y tendencia, proyecta la demanda de las próximas semanas y le avisa qué reponer y cuándo. También señala el problema opuesto: el sobrestock, ese capital inmovilizado en productos que rotan poco.
+
+El efecto es medible en dos frentes. Menos ventas perdidas: pasar de un 18% de SKUs en quiebre a un 3% recupera ingresos que hoy se escapan en silencio. Y menos capital parado: comprar según rotación real libera flujo de caja atrapado en el almacén. En un negocio con inventario relevante, ese doble ajuste suele valer miles de dólares al mes.
+
+No es instalar otro sistema de inventario, sino darle criterio predictivo al que ya tiene.
+
+En Boosty construimos esta capa de predicción sobre sus datos reales de venta, con Claude como capa de razonamiento y alertas conectadas a su operación de compras.
+
+¿Sabe qué producto se le va a agotar las próximas semanas? Comente DIAGNÓSTICO y le enviamos por mensaje directo el Diagnóstico de Madurez Digital: qué productos predecir primero y cuánto capital y venta recuperaría.
+
+Gabriel Montiel Toro · CEO de Boosty
+
+#Inventarios #InteligenciaArtificial #CadenaDeSuministro #Retail #AutomatizaciónEmpresarial #TransformaciónDigital #IAparaEmpresas #Claude #Boosty #LATAM

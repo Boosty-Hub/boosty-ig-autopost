@@ -1,0 +1,17 @@
+Así se ve un agente de IA trabajando de punta a punta
+
+En el carrusel verás la consola real de una corrida: el agente recibe un objetivo —"atender el lead y agendar una demo"— y ejecuta paso a paso sobre sus herramientas (HubSpot, WhatsApp, Google Calendar), hasta que llega a una acción de riesgo —aplicar un descuento— y se detiene a pedir su aprobación.
+
+Esa es la diferencia que importa. Un chatbot responde; un agente cumple un objetivo. Recibe una meta de negocio, la divide en pasos, llama a las herramientas necesarias, verifica el resultado de cada uno y solo escala a una persona cuando detecta riesgo. En lugar de encadenar tareas a mano entre cinco aplicaciones, una capa de razonamiento coordina el flujo completo.
+
+El beneficio para la dirección es doble: se elimina la coordinación manual que hoy consume horas y se mantiene el control, porque el agente opera con guardrails —se detiene en lo crítico y pide su OK— y cada acción queda registrada y es auditable. Y no exige reemplazar su stack: trabaja sobre las herramientas que ya funcionan.
+
+Este es el nivel donde la automatización deja de ser "varias herramientas sueltas" y pasa a ser un sistema con criterio. No se compra software: se diseña alrededor de sus objetivos y procesos reales.
+
+En Boosty implementamos estos agentes con Claude como capa de razonamiento, con aprobación humana en los pasos sensibles y trazabilidad de cada acción.
+
+¿Qué objetivo le encargaría hoy a un agente? Comente DIAGNÓSTICO y le enviamos por mensaje directo el Diagnóstico de Madurez Digital: qué objetivo automatizar primero y qué herramientas conectar.
+
+Gabriel Montiel Toro · CEO de Boosty
+
+#AgentesDeIA #InteligenciaArtificial #Automatización #Orquestación #IAparaEmpresas #TransformaciónDigital #CRM #Claude #Boosty #LATAM
