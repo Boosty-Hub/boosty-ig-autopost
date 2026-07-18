@@ -119,8 +119,24 @@ async function main() {
   const car = await gpost(`${IG}/media`, { media_type: 'CAROUSEL', children: childIds.join(','), caption: captionText });
   console.log(`   = carrusel ${car.id}`);
 
-  // 3) publicar
-  const pub = await gpost(`${IG}/media_publish`, { creation_id: car.id });
+  // esperar a que el contenedor del carrusel esté listo (evita 9007 "no está listo")
+  for (let i = 0; i < 20; i++) {
+    const s = await gget(car.id, { fields: 'status_code' }).catch(() => ({}));
+    if (s.status_code === 'FINISHED') { console.log('   carrusel FINISHED'); break; }
+    if (s.status_code === 'ERROR') throw new Error(`Carrusel ERROR: ${JSON.stringify(s)}`);
+    await sleep(5000);
+  }
+
+  // 3) publicar, con reintentos si Instagram responde "aún no listo" (9007 / 2207027)
+  let pub;
+  for (let i = 0; i < 10; i++) {
+    try { pub = await gpost(`${IG}/media_publish`, { creation_id: car.id }); break; }
+    catch (e) {
+      const notReady = /2207027|\b9007\b|not available|no est[aá] listo/i.test(e.message);
+      if (notReady && i < 9) { console.log(`   aún no listo, reintento ${i + 1}/9…`); await sleep(10000); continue; }
+      throw e;
+    }
+  }
   const info = await gget(pub.id, { fields: 'permalink' });
   console.log(`✅ Publicado: ${info.permalink || pub.id}`);
 }
