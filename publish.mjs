@@ -102,15 +102,18 @@ async function main() {
     } else {
       const j = await gpost(`${IG}/media`, { media_type: 'VIDEO', video_url: it.url, is_carousel_item: 'true' });
       console.log(`   + video ${j.id} (procesando…)`);
-      // espera FINISHED
-      let ok = false;
-      for (let i = 0; i < 30; i++) {
-        await sleep(6000);
-        const s = await gget(j.id, { fields: 'status_code,status' });
-        if (s.status_code === 'FINISHED') { ok = true; break; }
+      // espera FINISHED (hasta ~10 min; IG a veces tarda). Tolera blips transitorios de la API.
+      let ok = false, last = '';
+      for (let i = 0; i < 60; i++) {
+        await sleep(10000);
+        let s;
+        try { s = await gget(j.id, { fields: 'status_code,status' }); }
+        catch (e) { console.log(`   (poll ${i + 1}: reintento, ${e.message.slice(0, 60)})`); continue; }
+        last = s.status_code || '';
+        if (s.status_code === 'FINISHED') { ok = true; console.log(`   video FINISHED (${(i + 1) * 10}s)`); break; }
         if (s.status_code === 'ERROR') throw new Error(`Video ERROR: ${JSON.stringify(s)}`);
       }
-      if (!ok) throw new Error('Video no terminó de procesar a tiempo');
+      if (!ok) throw new Error(`Video no terminó de procesar a tiempo (último estado: ${last || 'desconocido'})`);
       childIds.push(j.id);
     }
   }
